@@ -1,0 +1,255 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body{
+  color:#444;
+  font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
+              "Hiragino Sans GB", "STXihei", "微软雅黑", serif;
+  font-size:12px;
+  line-height:1.5em;
+  background:#fefefe;
+  width: 45em;
+  margin: 10px auto;
+  padding: 1em;
+  outline: 1300px solid #FAFAFA;
+}
+
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
+
+span.backtick {
+  border:1px solid #EAEAEA;
+  border-radius:3px;
+  background:#F8F8F8;
+  padding:0 3px 0 3px;
+}
+
+::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+::selection{background:rgba(255,255,0,0.3);color:#000}
+
+a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+p{
+margin:1em 0;
+}
+
+img{
+max-width:100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+color:#111;
+line-height:1em;
+}
+h4,h5,h6{ font-weight: bold; }
+h1{ font-size:2.5em; }
+h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
+h3{ font-size:1.5em; }
+h4{ font-size:1.2em; }
+h5{ font-size:1em; }
+h6{ font-size:0.9em; }
+
+blockquote{
+color:#666666;
+margin:0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+
+
+pre , code, kbd, samp { 
+  color: #000; 
+  font-family: monospace; 
+  font-size: 0.88em; 
+  border-radius:3px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC; 
+}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
+pre code { border: 0px !important; padding: 0;}
+code { padding: 0 3px 0 3px; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+dd { margin: 0 0 0 2em; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+@media only screen and (min-width: 480px) {
+body{font-size:14px;}
+}
+
+@media only screen and (min-width: 768px) {
+body{font-size:16px;}
+}
+
+@media print {
+  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+  body{font-size:12pt; max-width:100%; outline:none;}
+  a, a:visited { text-decoration: underline; }
+  hr { height: 1px; border:0; border-bottom:1px solid black; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page :left { margin: 15mm 20mm 15mm 10mm; }
+  @page :right { margin: 15mm 10mm 15mm 20mm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+</style><title>spec</title></head><body><h1 id="to-do-specifications">TO-DO Specifications</h1>
+<h2 id="objectives">Objectives</h2>
+<ul>
+<li>To capture the scope of Project TO-DO</li>
+<li>To have an overview design for Project TO-DO</li>
+<li>To estimate the risks</li>
+<li>To foresee business opportunities</li>
+</ul>
+<h2 id="content">Content</h2>
+<p>TO-DO is a distributed system consisted of two major components:</p>
+<ul>
+<li>Server component deployed on cloud platform</li>
+<li>Client component which runs inside HTTP browsers</li>
+</ul>
+<p>This document describes the behavior of the system as a whole unless otherwise noted.</p>
+<h3 id="general-requirements">General Requirements</h3>
+<h4 id="internationalizationlocalization">Internationalization/Localization</h4>
+<ul>
+<li>Content must be translated into English/Vietnamese/Japanese</li>
+<li>Date and time notation</li>
+<li>Currency must be localized</li>
+</ul>
+<h3 id="functional-requirements">Functional Requirements</h3>
+<h4 id="list-active-to-do-items-in-order-of-increasing-due-date">List active to-do items in order of increasing due date</h4>
+<p><img alt="Screenshot main-01" src="file:///home/khanh/dev/todo/docs/screenshots/main-01.png" /></p>
+<p><strong>Pre-conditions</strong></p>
+<ul>
+<li>At least one filter (category) is selected</li>
+<li>At least one to-do item exists in the database</li>
+</ul>
+<p><strong>Post-conditions</strong></p>
+<ul>
+<li>Listed items must be filtered according to nav-item selected on the sidebar</li>
+</ul>
+<h4 id="update-status-of-listed-items-using-the-checkbox">Update status of listed items using the checkbox</h4>
+<p><img alt="Screenshot main-update-task-01" src="file:///home/khanh/dev/todo/docs/screenshots/main-update-task-01.png" /></p>
+<p>If the checkbox is unchecked, the to-do item is not done. When the user checks, the item status is updated to become "done".</p>
+<p><strong>Pre-conditions</strong></p>
+<ul>
+<li>At least one item is visible on the list</li>
+</ul>
+<p><strong>Post-conditions</strong></p>
+<ul>
+<li>Tasks due today and later must always be visible regardless of its status</li>
+<li>Overdue tasks which are done must not be visible</li>
+<li>Archive must be updated</li>
+<li>Sched health must be updated</li>
+</ul>
+<h4 id="add-new-task">Add new task</h4>
+<p><img alt="Screenshot main-new-task-01" src="file:///home/khanh/dev/todo/docs/screenshots/main-new-task-01.png" /></p>
+<p>When user clicks on the plus button, a modal dialog must appear for user to put in new task information. New task won't be recorded until user clicks button "Add Task". User may cancel the operation with the button "Cancel"</p>
+<p><strong>Post-conditions</strong></p>
+<ul>
+<li>Add new task dialog must be closed</li>
+<li>Task required fields must be filled</li>
+<li>Task list must be updated if the newly added task is due today or later.</li>
+<li>Archive must be updated if the newly added task is done and due in the past</li>
+</ul>
+<h4 id="sign-in">Sign In</h4>
+<p><img alt="Screenshot main-signin-01" src="file:///home/khanh/dev/todo/docs/screenshots/main-signin-01.png" /></p>
+<p>User must enter username and password in order to sign in the system. User can hit enter or click button Sign In to sign into the system. User can hit button "Cancel" to close the dialog.</p>
+<p><strong>Pre-conditions</strong></p>
+<ul>
+<li>All required fields are present</li>
+<li>At least one user exists in the database</li>
+<li>User is a guest</li>
+</ul>
+<p><strong>Post-conditions</strong></p>
+<ul>
+<li>Sign-in dialog must be closed</li>
+<li>User is logged in: A cookie is created to keep track of user</li>
+<li>Username and Gravatar are displayed in place of "Guest"</li>
+<li>If user chooses "Remember me", a cookie is creted to store this option</li>
+</ul>
+<h4 id="keep-sched-metrics-updated">Keep Sched Metrics updated</h4>
+<p><img alt="Screenshot main-sched-metrics-01" src="file:///home/khanh/dev/todo/docs/screenshots/main-sched-metrics-01.png" /></p>
+<p>The Sched Metrics must be kept updated at all times. To-DO items are classified into three groups:</p>
+<ul>
+<li>DONE: Any done tasks are classified into this group (whether they are overdue or on time)</li>
+<li>Deadline: Tasks whose deadlines are coming within the next 7 days. These tasks are not done.</li>
+<li>Overdue: Undone tasks whose deadlines are already in the past.</li>
+</ul>
+<p>The three bars are shown at all times. These bars reflect percentage values according to the following formula:</p>
+<pre><code>percentage = the number of items in group / the total tasks in the system
+</code></pre>
+<p><strong>Pre-conditions</strong></p>
+<ul>
+<li>At least one To-Do item exists</li>
+</ul>
+<p><strong>Post-conditions</strong></p>
+<ul>
+<li>The number of items in DONE must be less than or equal to the total items</li>
+<li>The number of items in the Deadline must be less than or equal to the total items</li>
+<li>The number of items in the Overdue must be less than or equal to the total items</li>
+</ul>
+<h4 id="hide-sched-metrics-when-there-is-no-tasks-in-the-system">Hide Sched Metrics when there is no tasks in the system</h4>
+<p><strong>Pre-conditions</strong></p>
+<ul>
+<li>No To-Do item exists</li>
+</ul>
+<p><strong>Post-conditions</strong></p>
+<ul>
+<li>Sched Metrics must be hidden from view</li>
+</ul>
+<h4 id="keep-to-do-archive-updated">Keep TO-DO Archive updated</h4>
+<p><img alt="Screenshot main-archive-01" src="file:///home/khanh/dev/todo/docs/screenshots/main-archive-01.png" /></p>
+<p>The archive reflects the number of To-Do items at all times.</p>
+<ul>
+<li>
+<p>When a To-Do item is inserted or updated:</p>
+<ul>
+<li>If the item's year is not present, a new year must be created</li>
+<li>If the item's month is not present, a new month must be created</li>
+</ul>
+</li>
+<li>
+<p>When a To-DO item is removed:</p>
+<ul>
+<li>If the item is the last one of that month, that month must be removed</li>
+<li>If the month is the last one of that year, that year must be removed</li>
+</ul>
+</li>
+</ul>
+<h4 id="hide-to-do-archive">Hide TO-DO Archive</h4>
+<p>When there is no item in the archive, TO-DO Archive must be hidden from view. User cannot access it by any means.</p>
+<p><strong>Pre-conditions</strong></p>
+<ul>
+<li>No To-Do item exists</li>
+</ul>
+<p><strong>Post-conditions</strong></p>
+<ul>
+<li>TO-DO Archive must be hidden from view</li>
+</ul></body></html>
