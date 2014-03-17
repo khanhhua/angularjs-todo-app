@@ -14,6 +14,10 @@ TO-DO is a distributed system consisted of two major components:
 
 This document describes the behavior of the system as a whole unless otherwise noted.
 
+###Versions
+
+Latest: 0.1.1
+
 ###General Requirements
 
 ####Internationalization/Localization
@@ -45,6 +49,10 @@ If the checkbox is unchecked, the to-do item is not done. When the user checks, 
 **Pre-conditions**
 
 - At least one item is visible on the list
+- To-do item must not be in the 'done' status, but must be in one of the following statuses:
+	+ 'unplanned'
+	+ 'planned'
+	+ 'in-progress'
 
 **Post-conditions**
 
@@ -58,11 +66,16 @@ If the checkbox is unchecked, the to-do item is not done. When the user checks, 
 
 When user clicks on the plus button, a modal dialog must appear for user to put in new task information. New task won't be recorded until user clicks button "Add Task". User may cancel the operation with the button "Cancel"
 
+**Pre-condition**
+
+- Add new task dialog must be open
+- Task required fields must be filled
+
 **Post-conditions**
 
 - Add new task dialog must be closed
-- Task required fields must be filled
 - Task list must be updated if the newly added task is due today or later.
+- Task list items must retain the correct order of increasing due date
 - Archive must be updated if the newly added task is done and due in the past
 
 ####Sign In
@@ -81,7 +94,7 @@ User must enter username and password in order to sign in the system. User can h
 - Sign-in dialog must be closed
 - User is logged in: A cookie is created to keep track of user
 - Username and Gravatar are displayed in place of "Guest"
-- If user chooses "Remember me", a cookie is creted to store this option
+- If user chooses "Remember me", a cookie is created to store this option
 
 ####Keep Sched Metrics updated
 

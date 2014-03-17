@@ -1,0 +1,795 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ovewr",
+				"overflow"
+			],
+			[
+				"coo",
+				"color-tone-1"
+			],
+			[
+				"text-c",
+				"text-decoration"
+			],
+			[
+				"ADD",
+				"addresses"
+			],
+			[
+				"address",
+				"addresses"
+			],
+			[
+				"parse",
+				"● parseInt(str)"
+			],
+			[
+				"regi",
+				"register"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"coff",
+				"coffeescript"
+			],
+			[
+				"st",
+				"stdout"
+			],
+			[
+				"as",
+				"async1"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"b",
+				"buy_an_ssd"
+			],
+			[
+				"findEleme",
+				"findElements"
+			],
+			[
+				"connect",
+				"connect-livereload"
+			],
+			[
+				"the",
+				"thead	Tag"
+			],
+			[
+				"conn",
+				"concurrent"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"strea",
+				"_stream"
+			],
+			[
+				"res",
+				"resfactory"
+			],
+			[
+				"pas",
+				"paused"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"re",
+				"res.redirect"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"in",
+				"injectees"
+			],
+			[
+				"used",
+				"usedLib"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ifr",
+				"iframeUserCode"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"listt",
+				"list-style"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"li",
+				"lib"
+			],
+			[
+				"an",
+				"angular"
+			],
+			[
+				"Obje",
+				"ObjectId"
+			],
+			[
+				"sess",
+				"sessionID"
+			],
+			[
+				"ses",
+				"sessionId"
+			],
+			[
+				"_",
+				"_sessionId"
+			],
+			[
+				"m",
+				"mongodb"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"com",
+				"command"
+			],
+			[
+				"moun",
+				"mountRoutes"
+			],
+			[
+				"con",
+				"concat"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"fo",
+				"footerHeight"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"rei",
+				"resize"
+			],
+			[
+				"root",
+				"rootPath"
+			],
+			[
+				"v",
+				"validateUserDoc"
+			],
+			[
+				"doc",
+				"new_doc"
+			],
+			[
+				"op",
+				"options"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"syntax PHP",
+				"Set Syntax: PHP"
+			],
+			[
+				"set syn coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"coff",
+				"Coffee: Goto Definition"
+			],
+			[
+				"Syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Syntax Jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Mark",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"Package LIs",
+				"Package Control: List Packages"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"Preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"Ma",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"Pcak",
+				"Package Control: Install Package"
+			],
+			[
+				"Makr",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Synt ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Syntax: Java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Pak",
+				"Package Control: Install Package"
+			],
+			[
+				"set Syntax JS",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 548.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/khanh/dev/goretailjobs.com/v1/wp-includes/theme-compat/sidebar.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/header-search.php",
+		"/home/khanh/dev/goretailjobs.com/v1/wp-content/themes/jobroller/header-search.php",
+		"/home/khanh/dev/goretailjobs.com/v1/wp-content/themes/jobright/header-search.php",
+		"/home/khanh/dev/goretailjobs.com/cms/CC_File/Header.html",
+		"/home/khanh/dev/goretailjobs.com/cms/CC_File/home_info_list_events.php",
+		"/home/khanh/dev/goretailjobs.com/home.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-jobright-v2/Gruntfile.js",
+		"/home/khanh/dev/goretailjobs.com/original/goretailjobs_test/_header.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-jobright-v2/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/test/globule_test.js",
+		"/home/khanh/dev/goretailjobs.com/v1/wp-includes/general-template.php",
+		"/home/khanh/dev/goretailjobs.com/generateresume.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright-v2/header-search.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobroller/header-search.php",
+		"/home/khanh/dev/goretailjobs.com/v1/wp-content/themes/jobright/header-search-2.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/header-search-2.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright-v2/header-search-2.php",
+		"/home/khanh/dev/goretailjobs.com/v1/wp-content/themes/jobright/header-resume-search.php",
+		"/home/khanh/dev/goretailjobs.com/v1/wp-content/themes/jobroller/header-resume-search.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/header-resume-search.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright-v2/header-resume-search.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobroller/header-resume-search.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-jobright-v2/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/lib/source-map/binary-search.js",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-jobright-v2/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/test/source-map/test-binary-search.js",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-jobright-v2/sass/legacy/components/search.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-jobright-v2/build/styles/style-v2.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/components/_navigation.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/header.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/partials/_modifiers.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/partials/_typography.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/partials/_vars.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/dashboard-button.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/styles/style-v2.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/partials/_base.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/wrapper.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/header-home.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/functions.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/slider-banner.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/components/_joblist.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/loop-job-starred.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/partials/_layout.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/build/styles/style-v2.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobroller/tpl-login.php",
+		"/home/khanh/dev/goretailjobs.com/info.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/Gruntfile.js",
+		"/home/khanh/dev/goretailjobs.com/v2/.htaccess",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/styles/responsive.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/loop-job.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/includes/featured-jobs.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/header.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/navigation.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/components/_featured_slider.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/styles/style-pro-blue.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/styles/style-v2.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/.sass-cache/748f35525ed4edddbffa3cbf1d63ed4eccc9004b/_layout.scssc",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/.sass-cache/7bbbb5ae53aef1a7cd5077f2439d4a1c92787a45/_navigation.scssc",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/layout/_header.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/xmlrpc.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/layout/_footer.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/components/_search.scss",
+		"/home/khanh/.config/sublime-text-3/Packages/User/Sass.sublime-settings",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/layout.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/style.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/screen.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/base/_typography.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/base/_vars.scss",
+		"/home/khanh/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/layout/_layout.scss",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/styles/screen.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-settings.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-config.php",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/ie.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/custom.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/footer.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/slider.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/homepage_featured_slider.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/header_buttons.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/forms.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/sidebar.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/lists.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/search.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/pagination.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/components/anchors.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/sass/legacy/print.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobroller/style.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright/config.rb",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/src-theme/config.rb",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/styles/style-basic.css",
+		"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright/styles/style-default.css",
+		"/etc/apache2/conf.d/other-vhosts-access-log",
+		"/etc/apache2/magic",
+		"/etc/apache2/conf.d/security",
+		"/etc/apache2/httpd.conf",
+		"/home/khanh/dev/cpujs/scss/style.scss",
+		"/home/khanh/dev/cpujs/coffeescript/index.coffeescript",
+		"/home/khanh/dev/cpujs/index.html",
+		"/home/khanh/dev/cpujs/Gruntfile.js",
+		"/home/khanh/dev/cpujs/package.json",
+		"/home/khanh/dev/cpujs/config.rb",
+		"/home/khanh/dev/todo/docs/Gruntfile.js",
+		"/home/khanh/dev/cpujs/css/style.css",
+		"/home/khanh/dev/cpujs/cpujs.sublime-project",
+		"/home/khanh/dev/gulp-fiddle/test/spec/fiddlerSpec.js",
+		"/home/khanh/dev/gulp-fiddle/test/phantom.js",
+		"/home/khanh/dev/gulp-fiddle/gulpfile.js",
+		"/home/khanh/dev/gulp-fiddle/test/runner.html",
+		"/home/khanh/dev/gulp-fiddle/test/specs/fiddlerSpecs.js",
+		"/home/khanh/dev/gulp-fiddle/src/js/fiddler.js",
+		"/home/khanh/dev/gulp-fiddle/src/styles/default.css",
+		"/home/khanh/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
+		"/home/khanh/dev/validatr/Gruntfile.js",
+		"/home/khanh/dev/todo/public/test/specs/todoMainCtrlSpec.js",
+		"/home/khanh/dev/validatr/test/spec/controller/vlMain.js",
+		"/home/khanh/dev/todo/public/test/spec/todoMainCtrl.js",
+		"/home/khanh/Downloads/jasmine/SpecRunner.html",
+		"/home/khanh/dev/validatr/test/runner.html",
+		"/home/khanh/dev/todo/docs/spec.md",
+		"/home/khanh/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/khanh/dev/todo/public/index.html",
+		"/home/khanh/dev/todo/public/css/main.css",
+		"/home/khanh/dev/todo/public/Gruntfile.js",
+		"/home/khanh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/khanh/dev/todo/spec.md",
+		"/home/khanh/dev/todo/public/.bowerrc",
+		"/home/khanh/flatron_resolution.sh",
+		"/home/khanh/dev/validatr/config/routes.js",
+		"/home/khanh/dev/validatr/middlewares/responsepool.js",
+		"/home/khanh/dev/validatr/data/usercode/sample-simple.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright-v2,-*.css, -*.scssc",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes,-*.css, -*.scssc",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes,-*.scss, -*.scssc",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright-v2,-*.css, -*.scssc",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/,-*.css, -*.scssc",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/,-*.css",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright,-*.scssc, ,-*.css",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright,-*.scssc",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/src-theme-jobright",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobroller",
+			"/home/khanh/dev/goretailjobs.com/v2/wp-content/themes/jobright",
+			"/home/khanh/dev/validatr/",
+			"/home/khanh/dev/validatr/source/bower_components/bootstrap-sass"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\n\\n",
+			"([^\\n$^;])\\}",
+			"([^\\n$^])\\}",
+			"([^$^])\\}",
+			";",
+			"\\{([^$\\n])",
+			"sidebar",
+			"radius",
+			"\\n\\n",
+			"<label for=\"search\">",
+			"pagetitle",
+			"Latest",
+			"Latest Jobs",
+			"get_header",
+			"id=\"search\"",
+			"$header_search",
+			"mainContent",
+			"header-2 search",
+			"<h1>Search</h1>",
+			"/* line 148, ../../sass/partials/_layout.scss */",
+			"header-2",
+			"header-l",
+			"header-2",
+			"#header-2",
+			"header-2",
+			"inner-all",
+			"dashboard",
+			"$theaction",
+			"\\n\\n",
+			"menu-right",
+			"topNav",
+			"menu-",
+			"id=\"logo\"",
+			";",
+			"menu-right",
+			"home-featured-right",
+			"menu-right",
+			"titlo",
+			"type-tag",
+			"logoso-listing",
+			"head-footy",
+			"\\n\\n",
+			";",
+			"\\n\\n",
+			";",
+			"banner",
+			"slider-banner",
+			"slider-banner.php",
+			"featured-slider",
+			"#2c4975",
+			"$color-tone-1",
+			"#c2028e",
+			"$color",
+			"$color-",
+			"#c2028e",
+			"jr_child_theme",
+			"$child_theme",
+			"\\n\\n",
+			";",
+			"\\}",
+			"\\{",
+			"\\}",
+			"\\{",
+			";",
+			"\\}",
+			"\\{",
+			"^\\s{1}",
+			"  ",
+			" ,",
+			"\\n\\n",
+			"\\}",
+			"\\{",
+			"\\}",
+			"\\{\\n\\n",
+			"\\{",
+			"{",
+			";",
+			"expa",
+			"$scope.addresses",
+			"$addr-width",
+			"html",
+			".html",
+			"extend",
+			"jasmineInterface",
+			"execute",
+			"it.expect",
+			"describe",
+			"dist",
+			"connect:",
+			"jas",
+			"jasm",
+			"karma",
+			"test",
+			"concurrent",
+			"pageh",
+			"page",
+			"customRespond",
+			"responsepool",
+			"resfactory",
+			"deferredResponses",
+			"make",
+			"webC",
+			"persistedResponses",
+			"$cookie",
+			"src=\"bower_components/",
+			"debugger",
+			"replaceBlocks",
+			"HTMLProcessor",
+			"sections",
+			"Update the",
+			"Update the HTML to reference",
+			"proxy",
+			"======",
+			"proxy",
+			"margin",
+			"margiin",
+			"line",
+			"lineHe",
+			"compass",
+			"connect",
+			"server",
+			"workbenchSchema",
+			"workbenchess",
+			"workbench",
+			"validation session",
+			"session",
+			"request",
+			"response"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"\\1;\\n}",
+			";\\n",
+			"\\{\\n\\1",
+			"\\n",
+			";\\n",
+			"\\n",
+			";\\n",
+			"\\n",
+			"$color-tone-1",
+			"#2c4975",
+			"$color-tone-1",
+			"\\n",
+			";\\n",
+			"\\n\\}",
+			"\\{\\n",
+			"\\n\\}",
+			"\\{\\n",
+			";\\n",
+			"\\n\\}",
+			"\\n\\{",
+			"\\{\\n",
+			"  ",
+			"\\s\\s",
+			" ",
+			", ",
+			"\\n",
+			"\\n\\}",
+			"\\{\\n",
+			"\\n\\}",
+			"\\{\\n",
+			"{\\n",
+			";\\n",
+			"expect",
+			"it",
+			"it.expect",
+			"customResponse",
+			"responsepool",
+			"deferredResponses",
+			"src=\"/bower_components/",
+			"schema",
+			"workbenches",
+			"workbench",
+			"req",
+			"res"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "spec.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"header-sear",
+				"goretailjobs.com/v2/wp-content/themes/jobright-v2/header-search.php"
+			],
+			[
+				"-sear",
+				"goretailjobs.com/v1/wp-content/themes/jobright/header-search.php"
+			],
+			[
+				"header-home",
+				"goretailjobs.com/v2/wp-content/themes/jobright-v2/header-home.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 264.0,
+		"selected_items":
+		[
+			[
+				"autofor",
+				"createUploadForm"
+			]
+		],
+		"width": 835.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
