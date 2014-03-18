@@ -40,7 +40,7 @@ Latest: 0.1.1
 - Listed items must be filtered according to nav-item selected on the sidebar
 
 
-####Update status of listed items using the checkbox
+####Update status of listed items to "done" using the checkbox
 
 ![Screenshot main-update-task-01](screenshots/main-update-task-01.png)
 
@@ -58,8 +58,20 @@ If the checkbox is unchecked, the to-do item is not done. When the user checks, 
 
 - Tasks due today and later must always be visible regardless of its status
 - Overdue tasks which are done must not be visible
-- Archive must be updated
+- Archive must be updated to contain the done item
 - Sched health must be updated
+
+####List items in archive
+
+When user selects a month or year in the archive, all items within that archive are displayed. For an item to be in the archive, it must FIRST be done! Items in the archive are not categorized.
+
+**Pre-conditions**
+
+- At least one item is in the archive
+
+**Post-conditions**
+
+- Item must be ordered in descending dates
 
 ####Add new task
 ![Screenshot main-new-task-01](screenshots/main-new-task-01.png)
